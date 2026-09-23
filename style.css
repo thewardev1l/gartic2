@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#game-container {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+canvas {
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: crosshair;
+    background: #fff;
+}
+.controls {
+    margin-top: 10px;
+}
+.chat-container {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    height: 350px;
+    font-size: 14px;
+}
+.chat-input-area {
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+#chat-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+}
+#chat-send {
+    border: none;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
